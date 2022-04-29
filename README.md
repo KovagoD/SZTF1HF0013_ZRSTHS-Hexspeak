@@ -29,3 +29,6 @@ Megkötés(ek)
 - 1 ≤ N ≤ 1018
 - N ∈ {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}
 - az N szám nem tartalmaz vezérlőnullákat
+
+![image](https://user-images.githubusercontent.com/25224122/165916005-f3853afc-32f4-427d-8979-ac952afd02af.png)
+
