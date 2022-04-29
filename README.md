@@ -4,23 +4,28 @@ Ha bármilyen lefordított Java .class fájlt megnyitunk egy szövegszerkesztőb
 a ”CAFEBABE” varázsszót olvashatjuk hexadecimálisan. Ezt, vagyis, hogy a hexadecimális számokat
 használunk szavak  írásához Hexspeak-nek nevezzük.
 
-A tizenhatos (hexadecimális) sz ́amrendszer a 0, .., 9 sz ́amjegyeken k ́ıv ̈ul az A, B, C, D, E, F bet ̋uket
-haszn ́alja, melyek seg ́ıts ́eg ́evel  ́abr ́azolhat ́ok a val ́os  ́es a komplex sz ́amok. P ́eld ́aul a 235D sz ́am
-hexadecim ́alisan EBH , ugyanis 235 = 14 ∗ 16 + 11, ahol a 14-et az E, a 11-et a B bet ̋uvel kell  ́ırni.
-Ebben a feladatban nyolc k ̈ul ̈onb ̈oz ̋o bet ̋ut kell haszn ́alni: az A - F bet ̋uk mellett a 0- ́as sz ́amjegyet
-O bet ̋uk ́ent, az 1-es sz ́amjegyet pedig I bet ̋uk ́ent  ́ertelmezz ̈uk. Ez alapj ́an minden olyan sz ́o, amely
-csak az ABCDEFIO bet ̋ukb ̋ol  ́all, hexadecim ́alis sz ́amk ́ent  ́ertelmezhet ̈unk. Az ilyen szavakat  ́erv ́enyes
-Hexspeak szavaknak tekintj ̈uk.
-A feladat, hogy az adott N sz ́amot konvert ́alja hexadecim ́alisra. Ha egy  ́erv ́enyes Hexspeak sz ́o
-reprezent ́aci ́oj ́at kapja, akkor jelen ́ıtse meg, ellenkez ̋o esetben az error sz ́ot kell megjelen ́ıteni. M ́as
-sz ́oval az error legyen az eredm ́eny, ha a bemeneti sz ́am hexadecim ́alis  ́abr ́azol ́asa a 2  ́es 9 k ̈oz ̈otti
-sz ́amjegy valamilyen el ̋ofordul ́as ́at tartalmazza.
+A tizenhatos (hexadecimális) számrendszer a 0, .., 9 számjegyeken kívül az A, B, C, D, E, F betűket
+használja, melyek segítségével  ábrázolhatók a valós  ́es a komplex számok. Például a 235D szám
+hexadecimálisan EBH , ugyanis 235 = 14 ∗ 16 + 11, ahol a 14-et az E, a 11-et a B betűvel kell írni.
+
+Ebben a feladatban nyolc különböző betűt kell használni: az A - F betűk mellett a 0- ́as számjegyet
+O betűként, az 1-es számjegyet pedig I betűként értelmezzük. Ez alapján minden olyan szó, amely
+csak az ABCDEFIO betűkből áll, hexadecimális számként értelmezhetünk. Az ilyen szavakat érvényes
+Hexspeak szavaknak tekintjük.
+
+A feladat, hogy az adott N számot konvertálja hexadecimálisra. Ha egy érvényes Hexspeak szó
+reprezentációját kapja, akkor jelenítse meg, ellenkező esetben az error szót kell megjeleníteni. Más
+szóval az error legyen az eredmény, ha a bemeneti szám hexadecimális ábrázolása a 2 és 9 közötti
+számjegy valamilyen előfordulását tartalmazza.
+
 Bemenet (Console)
-- a felhaszn ́al ́o  ́altal megadott egyetlen sz ́am, az N
+- a felhasználó által megadott egyetlen szám, az N
+
 Kimenet (Console)
-- a felhaszn ́al ́o  ́altal megadott N sz ́amhoz tartoz ́o Hexspeak sz ́o (vagy az error, ha nem lehets ́eges
-az  ́atalak ́ıt ́as)
-Megk ̈ot ́es(ek)
+- a felhasználó által megadott N számhoz tartozó Hexspeak szó (vagy az error, ha nem lehetséges
+az átalakítás)
+
+Megkötés(ek)
 - 1 ≤ N ≤ 1018
 - N ∈ {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}
-- az N sz ́am nem tartalmaz vez ́erl ̋o null ́akat
+- az N szám nem tartalmaz vezérlőnullákat
