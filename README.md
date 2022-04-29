@@ -8,7 +8,7 @@ A tizenhatos (hexadecimális) számrendszer a 0, .., 9 számjegyeken kívül az 
 használja, melyek segítségével  ábrázolhatók a valós  ́es a komplex számok. Például a 235D szám
 hexadecimálisan EBH , ugyanis 235 = 14 ∗ 16 + 11, ahol a 14-et az E, a 11-et a B betűvel kell írni.
 
-Ebben a feladatban nyolc különböző betűt kell használni: az A - F betűk mellett a 0- ́as számjegyet
+Ebben a feladatban nyolc különböző betűt kell használni: az A - F betűk mellett a 0-ás számjegyet
 O betűként, az 1-es számjegyet pedig I betűként értelmezzük. Ez alapján minden olyan szó, amely
 csak az ABCDEFIO betűkből áll, hexadecimális számként értelmezhetünk. Az ilyen szavakat érvényes
 Hexspeak szavaknak tekintjük.
